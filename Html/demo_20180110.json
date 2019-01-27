@@ -1,0 +1,1330 @@
+[
+  {
+    "b_name": "Double or Twin Room",
+    "b_blocks": [
+      {
+        "b_rate_is_genius": 0,
+        "b_book_now_pay_later": 1,
+        "b_rate_is_cug_business_rate": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_business_package_match": 0,
+        "b_price": "€ 156.69",
+        "b_mealplan_included_name": null,
+        "b_max_persons": 2,
+        "b_block_id": "73847401_101799383_0_2_0",
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0
+          },
+          {
+            "b_raw_price": "156.69",
+            "b_stays": 1,
+            "b_price": "€ 156.69",
+            "b_local_price": 156.69
+          },
+          {
+            "b_local_price": 313.38,
+            "b_price": "€ 313.38",
+            "b_stays": 2,
+            "b_raw_price": "313.38"
+          },
+          {
+            "b_price": "€ 470.07",
+            "b_stays": 3,
+            "b_local_price": 470.07,
+            "b_raw_price": "470.07"
+          },
+          {
+            "b_raw_price": "626.76",
+            "b_price": "€ 626.76",
+            "b_stays": 4,
+            "b_local_price": 626.76
+          },
+          {
+            "b_local_price": 783.45,
+            "b_stays": 5,
+            "b_price": "€ 783.45",
+            "b_raw_price": "783.45"
+          },
+          {
+            "b_local_price": 940.14,
+            "b_price": "€ 940.14",
+            "b_stays": 6,
+            "b_raw_price": "940.14"
+          },
+          {
+            "b_local_price": 1096.83,
+            "b_price": "€ 1,096.83",
+            "b_stays": 7,
+            "b_raw_price": "1096.83"
+          },
+          {
+            "b_price": "€ 1,253.52",
+            "b_stays": 8,
+            "b_local_price": 1253.52,
+            "b_raw_price": "1253.52"
+          },
+          {
+            "b_stays": 9,
+            "b_price": "€ 1,410.21",
+            "b_local_price": 1410.21,
+            "b_raw_price": "1410.21"
+          },
+          {
+            "b_raw_price": "1566.90",
+            "b_price": "€ 1,566.90",
+            "b_stays": 10,
+            "b_local_price": 1566.9
+          }
+        ],
+        "b_raw_price": "156.69",
+        "b_nr_stays": 10
+      },
+      {
+        "b_mealplan_included_name": "breakfast",
+        "b_price": "€ 182.86",
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_block_id": "73847401_101799383_0_1_0",
+        "b_stay_prices": [
+          {
+            "b_price": "",
+            "b_stays": 0,
+            "b_local_price": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_raw_price": "182.86",
+            "b_stays": 1,
+            "b_price": "€ 182.86",
+            "b_local_price": 182.86
+          },
+          {
+            "b_stays": 2,
+            "b_price": "€ 365.72",
+            "b_local_price": 365.72,
+            "b_raw_price": "365.72"
+          },
+          {
+            "b_price": "€ 548.58",
+            "b_stays": 3,
+            "b_local_price": 548.58,
+            "b_raw_price": "548.58"
+          },
+          {
+            "b_local_price": 731.44,
+            "b_price": "€ 731.44",
+            "b_stays": 4,
+            "b_raw_price": "731.44"
+          },
+          {
+            "b_local_price": 914.3,
+            "b_stays": 5,
+            "b_price": "€ 914.30",
+            "b_raw_price": "914.30"
+          },
+          {
+            "b_raw_price": "1097.16",
+            "b_local_price": 1097.16,
+            "b_price": "€ 1,097.16",
+            "b_stays": 6
+          },
+          {
+            "b_raw_price": "1280.02",
+            "b_local_price": 1280.02,
+            "b_stays": 7,
+            "b_price": "€ 1,280.02"
+          },
+          {
+            "b_price": "€ 1,462.88",
+            "b_stays": 8,
+            "b_local_price": 1462.88,
+            "b_raw_price": "1462.88"
+          },
+          {
+            "b_price": "€ 1,645.74",
+            "b_stays": 9,
+            "b_local_price": 1645.74,
+            "b_raw_price": "1645.74"
+          },
+          {
+            "b_local_price": 1828.6,
+            "b_price": "€ 1,828.60",
+            "b_stays": 10,
+            "b_raw_price": "1828.60"
+          }
+        ],
+        "b_raw_price": "182.86",
+        "b_nr_stays": 10,
+        "b_max_persons": 2,
+        "b_rate_is_genius": 0,
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1
+      },
+      {
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1,
+        "b_rate_is_genius": 0,
+        "b_max_persons": 1,
+        "b_nr_stays": 10,
+        "b_stay_prices": [
+          {
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_local_price": 172.41,
+            "b_price": "€ 172.41",
+            "b_stays": 1,
+            "b_raw_price": "172.41"
+          },
+          {
+            "b_local_price": 344.82,
+            "b_stays": 2,
+            "b_price": "€ 344.82",
+            "b_raw_price": "344.82"
+          },
+          {
+            "b_local_price": 517.23,
+            "b_stays": 3,
+            "b_price": "€ 517.23",
+            "b_raw_price": "517.23"
+          },
+          {
+            "b_local_price": 689.64,
+            "b_stays": 4,
+            "b_price": "€ 689.64",
+            "b_raw_price": "689.64"
+          },
+          {
+            "b_price": "€ 862.05",
+            "b_stays": 5,
+            "b_local_price": 862.05,
+            "b_raw_price": "862.05"
+          },
+          {
+            "b_raw_price": "1034.46",
+            "b_local_price": 1034.46,
+            "b_stays": 6,
+            "b_price": "€ 1,034.46"
+          },
+          {
+            "b_local_price": 1206.87,
+            "b_price": "€ 1,206.87",
+            "b_stays": 7,
+            "b_raw_price": "1206.87"
+          },
+          {
+            "b_stays": 8,
+            "b_price": "€ 1,379.28",
+            "b_local_price": 1379.28,
+            "b_raw_price": "1379.28"
+          },
+          {
+            "b_local_price": 1551.69,
+            "b_price": "€ 1,551.69",
+            "b_stays": 9,
+            "b_raw_price": "1551.69"
+          },
+          {
+            "b_stays": 10,
+            "b_price": "€ 1,724.10",
+            "b_local_price": 1724.1,
+            "b_raw_price": "1724.10"
+          }
+        ],
+        "b_raw_price": "172.41",
+        "b_block_id": "73847401_101799383_1_1_0",
+        "b_cancellation_type": "free_cancellation",
+        "b_business_package_match": 0,
+        "b_mealplan_included_name": "breakfast",
+        "b_price": "€ 172.41"
+      }
+    ],
+    "b_id": 73847401,
+    "b_roomtype_id": 24,
+    "b_has_room_inventory": 1
+  },
+  {
+    "b_name": "Basic Double Room",
+    "b_blocks": [
+      {
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1,
+        "b_rate_is_genius": 0,
+        "b_max_persons": 2,
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0
+          },
+          {
+            "b_raw_price": "183.92",
+            "b_stays": 1,
+            "b_price": "€ 183.92",
+            "b_local_price": 183.92
+          },
+          {
+            "b_raw_price": "367.84",
+            "b_price": "€ 367.84",
+            "b_stays": 2,
+            "b_local_price": 367.84
+          },
+          {
+            "b_price": "€ 551.76",
+            "b_stays": 3,
+            "b_local_price": 551.76,
+            "b_raw_price": "551.76"
+          },
+          {
+            "b_raw_price": "735.68",
+            "b_local_price": 735.68,
+            "b_stays": 4,
+            "b_price": "€ 735.68"
+          },
+          {
+            "b_raw_price": "919.60",
+            "b_price": "€ 919.60",
+            "b_stays": 5,
+            "b_local_price": 919.6
+          },
+          {
+            "b_local_price": 1103.52,
+            "b_stays": 6,
+            "b_price": "€ 1,103.52",
+            "b_raw_price": "1103.52"
+          },
+          {
+            "b_local_price": 1287.44,
+            "b_stays": 7,
+            "b_price": "€ 1,287.44",
+            "b_raw_price": "1287.44"
+          },
+          {
+            "b_local_price": 1471.36,
+            "b_stays": 8,
+            "b_price": "€ 1,471.36",
+            "b_raw_price": "1471.36"
+          },
+          {
+            "b_price": "€ 1,655.28",
+            "b_stays": 9,
+            "b_local_price": 1655.28,
+            "b_raw_price": "1655.28"
+          },
+          {
+            "b_raw_price": "1839.20",
+            "b_local_price": 1839.2,
+            "b_stays": 10,
+            "b_price": "€ 1,839.20"
+          }
+        ],
+        "b_raw_price": "183.92",
+        "b_block_id": "73847407_101799383_0_2_0",
+        "b_nr_stays": 10,
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_price": "€ 183.92",
+        "b_mealplan_included_name": null
+      },
+      {
+        "b_price": "€ 214.72",
+        "b_mealplan_included_name": "breakfast",
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_nr_stays": 10,
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_stays": 0,
+            "b_price": "",
+            "b_local_price": 0
+          },
+          {
+            "b_local_price": 214.72,
+            "b_price": "€ 214.72",
+            "b_stays": 1,
+            "b_raw_price": "214.72"
+          },
+          {
+            "b_raw_price": "429.44",
+            "b_local_price": 429.44,
+            "b_stays": 2,
+            "b_price": "€ 429.44"
+          },
+          {
+            "b_raw_price": "644.16",
+            "b_local_price": 644.16,
+            "b_stays": 3,
+            "b_price": "€ 644.16"
+          },
+          {
+            "b_raw_price": "858.88",
+            "b_price": "€ 858.88",
+            "b_stays": 4,
+            "b_local_price": 858.88
+          },
+          {
+            "b_stays": 5,
+            "b_price": "€ 1,073.60",
+            "b_local_price": 1073.6,
+            "b_raw_price": "1073.60"
+          },
+          {
+            "b_raw_price": "1288.32",
+            "b_price": "€ 1,288.32",
+            "b_stays": 6,
+            "b_local_price": 1288.32
+          },
+          {
+            "b_price": "€ 1,503.04",
+            "b_stays": 7,
+            "b_local_price": 1503.04,
+            "b_raw_price": "1503.04"
+          },
+          {
+            "b_price": "€ 1,717.76",
+            "b_stays": 8,
+            "b_local_price": 1717.76,
+            "b_raw_price": "1717.76"
+          },
+          {
+            "b_raw_price": "1932.48",
+            "b_price": "€ 1,932.48",
+            "b_stays": 9,
+            "b_local_price": 1932.48
+          },
+          {
+            "b_stays": 10,
+            "b_price": "€ 2,147.20",
+            "b_local_price": 2147.2,
+            "b_raw_price": "2147.20"
+          }
+        ],
+        "b_block_id": "73847407_101799383_0_1_0",
+        "b_raw_price": "214.72",
+        "b_max_persons": 2,
+        "b_rate_is_genius": 0,
+        "b_book_now_pay_later": 1,
+        "b_rate_is_cug_business_rate": 0
+      }
+    ],
+    "b_id": 73847407,
+    "b_roomtype_id": 9,
+    "b_has_room_inventory": 1
+  },
+  {
+    "b_has_room_inventory": 1,
+    "b_roomtype_id": 24,
+    "b_blocks": [
+      {
+        "b_rate_is_genius": 0,
+        "b_rate_is_cug_business_rate": 0,
+        "b_mealplan_included_name": null,
+        "b_price": "€ 190.52",
+        "b_business_package_match": 0,
+        "b_cancellation_type": "non_refundable",
+        "b_raw_price": "190.52",
+        "b_stay_prices": [
+          {
+            "b_stays": 0,
+            "b_price": "",
+            "b_local_price": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_raw_price": "190.52",
+            "b_price": "€ 190.52",
+            "b_stays": 1,
+            "b_local_price": 190.52
+          },
+          {
+            "b_price": "€ 381.04",
+            "b_stays": 2,
+            "b_local_price": 381.04,
+            "b_raw_price": "381.04"
+          },
+          {
+            "b_stays": 3,
+            "b_price": "€ 571.56",
+            "b_local_price": 571.56,
+            "b_raw_price": "571.56"
+          },
+          {
+            "b_local_price": 762.08,
+            "b_price": "€ 762.08",
+            "b_stays": 4,
+            "b_raw_price": "762.08"
+          },
+          {
+            "b_local_price": 952.6,
+            "b_stays": 5,
+            "b_price": "€ 952.60",
+            "b_raw_price": "952.60"
+          },
+          {
+            "b_local_price": 1143.12,
+            "b_price": "€ 1,143.12",
+            "b_stays": 6,
+            "b_raw_price": "1143.12"
+          },
+          {
+            "b_raw_price": "1333.64",
+            "b_local_price": 1333.64,
+            "b_stays": 7,
+            "b_price": "€ 1,333.64"
+          },
+          {
+            "b_raw_price": "1524.16",
+            "b_stays": 8,
+            "b_price": "€ 1,524.16",
+            "b_local_price": 1524.16
+          },
+          {
+            "b_stays": 9,
+            "b_price": "€ 1,714.68",
+            "b_local_price": 1714.68,
+            "b_raw_price": "1714.68"
+          },
+          {
+            "b_raw_price": "1905.20",
+            "b_stays": 10,
+            "b_price": "€ 1,905.20",
+            "b_local_price": 1905.2
+          }
+        ],
+        "b_block_id": "73847404_88211440_0_2_0",
+        "b_nr_stays": 10,
+        "b_max_persons": 2
+      },
+      {
+        "b_max_persons": 2,
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_stays": 0,
+            "b_price": "",
+            "b_local_price": 0
+          },
+          {
+            "b_stays": 1,
+            "b_price": "€ 211.42",
+            "b_local_price": 211.42,
+            "b_raw_price": "211.42"
+          },
+          {
+            "b_local_price": 422.84,
+            "b_stays": 2,
+            "b_price": "€ 422.84",
+            "b_raw_price": "422.84"
+          },
+          {
+            "b_local_price": 634.26,
+            "b_stays": 3,
+            "b_price": "€ 634.26",
+            "b_raw_price": "634.26"
+          },
+          {
+            "b_raw_price": "845.68",
+            "b_local_price": 845.68,
+            "b_price": "€ 845.68",
+            "b_stays": 4
+          },
+          {
+            "b_price": "€ 1,057.10",
+            "b_stays": 5,
+            "b_local_price": 1057.1,
+            "b_raw_price": "1057.10"
+          },
+          {
+            "b_raw_price": "1268.52",
+            "b_local_price": 1268.52,
+            "b_stays": 6,
+            "b_price": "€ 1,268.52"
+          },
+          {
+            "b_local_price": 1479.94,
+            "b_stays": 7,
+            "b_price": "€ 1,479.94",
+            "b_raw_price": "1479.94"
+          },
+          {
+            "b_local_price": 1691.36,
+            "b_price": "€ 1,691.36",
+            "b_stays": 8,
+            "b_raw_price": "1691.36"
+          },
+          {
+            "b_raw_price": "1902.78",
+            "b_price": "€ 1,902.78",
+            "b_stays": 9,
+            "b_local_price": 1902.78
+          },
+          {
+            "b_raw_price": "2114.20",
+            "b_stays": 10,
+            "b_price": "€ 2,114.20",
+            "b_local_price": 2114.2
+          }
+        ],
+        "b_block_id": "73847404_101799383_0_2_0",
+        "b_raw_price": "211.42",
+        "b_nr_stays": 10,
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_price": "€ 211.42",
+        "b_mealplan_included_name": null,
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1,
+        "b_rate_is_genius": 0
+      },
+      {
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0,
+        "b_nr_stays": 10,
+        "b_raw_price": "218.24",
+        "b_stay_prices": [
+          {
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_price": "€ 218.24",
+            "b_stays": 1,
+            "b_local_price": 218.24,
+            "b_raw_price": "218.24"
+          },
+          {
+            "b_local_price": 436.48,
+            "b_price": "€ 436.48",
+            "b_stays": 2,
+            "b_raw_price": "436.48"
+          },
+          {
+            "b_raw_price": "654.72",
+            "b_price": "€ 654.72",
+            "b_stays": 3,
+            "b_local_price": 654.72
+          },
+          {
+            "b_local_price": 872.96,
+            "b_stays": 4,
+            "b_price": "€ 872.96",
+            "b_raw_price": "872.96"
+          },
+          {
+            "b_raw_price": "1091.20",
+            "b_price": "€ 1,091.20",
+            "b_stays": 5,
+            "b_local_price": 1091.2
+          },
+          {
+            "b_raw_price": "1309.44",
+            "b_price": "€ 1,309.44",
+            "b_stays": 6,
+            "b_local_price": 1309.44
+          },
+          {
+            "b_local_price": 1527.68,
+            "b_stays": 7,
+            "b_price": "€ 1,527.68",
+            "b_raw_price": "1527.68"
+          },
+          {
+            "b_stays": 8,
+            "b_price": "€ 1,745.92",
+            "b_local_price": 1745.92,
+            "b_raw_price": "1745.92"
+          },
+          {
+            "b_raw_price": "1964.16",
+            "b_price": "€ 1,964.16",
+            "b_stays": 9,
+            "b_local_price": 1964.16
+          },
+          {
+            "b_raw_price": "2182.40",
+            "b_stays": 10,
+            "b_price": "€ 2,182.40",
+            "b_local_price": 2182.4
+          }
+        ],
+        "b_block_id": "73847404_88211440_0_1_0",
+        "b_max_persons": 2,
+        "b_mealplan_included_name": "breakfast",
+        "b_price": "€ 218.24",
+        "b_cancellation_type": "non_refundable",
+        "b_business_package_match": 0
+      },
+      {
+        "b_rate_is_genius": 0,
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1,
+        "b_mealplan_included_name": "breakfast",
+        "b_price": "€ 242.22",
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_nr_stays": 10,
+        "b_stay_prices": [
+          {
+            "b_stays": 0,
+            "b_price": "",
+            "b_local_price": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_raw_price": "242.22",
+            "b_local_price": 242.22,
+            "b_stays": 1,
+            "b_price": "€ 242.22"
+          },
+          {
+            "b_raw_price": "484.44",
+            "b_price": "€ 484.44",
+            "b_stays": 2,
+            "b_local_price": 484.44
+          },
+          {
+            "b_raw_price": "726.66",
+            "b_local_price": 726.66,
+            "b_stays": 3,
+            "b_price": "€ 726.66"
+          },
+          {
+            "b_local_price": 968.88,
+            "b_stays": 4,
+            "b_price": "€ 968.88",
+            "b_raw_price": "968.88"
+          },
+          {
+            "b_local_price": 1211.1,
+            "b_stays": 5,
+            "b_price": "€ 1,211.10",
+            "b_raw_price": "1211.10"
+          },
+          {
+            "b_raw_price": "1453.32",
+            "b_local_price": 1453.32,
+            "b_stays": 6,
+            "b_price": "€ 1,453.32"
+          },
+          {
+            "b_raw_price": "1695.54",
+            "b_stays": 7,
+            "b_price": "€ 1,695.54",
+            "b_local_price": 1695.54
+          },
+          {
+            "b_raw_price": "1937.76",
+            "b_price": "€ 1,937.76",
+            "b_stays": 8,
+            "b_local_price": 1937.76
+          },
+          {
+            "b_local_price": 2179.98,
+            "b_stays": 9,
+            "b_price": "€ 2,179.98",
+            "b_raw_price": "2179.98"
+          },
+          {
+            "b_local_price": 2422.2,
+            "b_price": "€ 2,422.20",
+            "b_stays": 10,
+            "b_raw_price": "2422.20"
+          }
+        ],
+        "b_block_id": "73847404_101799383_0_1_0",
+        "b_raw_price": "242.22",
+        "b_max_persons": 2
+      },
+      {
+        "b_max_persons": 1,
+        "b_raw_price": "203.17",
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_price": "",
+            "b_stays": 0,
+            "b_local_price": 0
+          },
+          {
+            "b_local_price": 203.17,
+            "b_price": "€ 203.17",
+            "b_stays": 1,
+            "b_raw_price": "203.17"
+          },
+          {
+            "b_local_price": 406.34,
+            "b_price": "€ 406.34",
+            "b_stays": 2,
+            "b_raw_price": "406.34"
+          },
+          {
+            "b_local_price": 609.51,
+            "b_price": "€ 609.51",
+            "b_stays": 3,
+            "b_raw_price": "609.51"
+          },
+          {
+            "b_local_price": 812.68,
+            "b_stays": 4,
+            "b_price": "€ 812.68",
+            "b_raw_price": "812.68"
+          },
+          {
+            "b_stays": 5,
+            "b_price": "€ 1,015.85",
+            "b_local_price": 1015.85,
+            "b_raw_price": "1015.85"
+          },
+          {
+            "b_raw_price": "1219.02",
+            "b_price": "€ 1,219.02",
+            "b_stays": 6,
+            "b_local_price": 1219.02
+          },
+          {
+            "b_raw_price": "1422.19",
+            "b_local_price": 1422.19,
+            "b_stays": 7,
+            "b_price": "€ 1,422.19"
+          },
+          {
+            "b_local_price": 1625.36,
+            "b_stays": 8,
+            "b_price": "€ 1,625.36",
+            "b_raw_price": "1625.36"
+          },
+          {
+            "b_raw_price": "1828.53",
+            "b_local_price": 1828.53,
+            "b_stays": 9,
+            "b_price": "€ 1,828.53"
+          },
+          {
+            "b_raw_price": "2031.70",
+            "b_local_price": 2031.7,
+            "b_price": "€ 2,031.70",
+            "b_stays": 10
+          }
+        ],
+        "b_block_id": "73847404_88211440_1_1_0",
+        "b_nr_stays": 10,
+        "b_cancellation_type": "non_refundable",
+        "b_business_package_match": 0,
+        "b_price": "€ 203.17",
+        "b_mealplan_included_name": "breakfast",
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0
+      }
+    ],
+    "b_id": 73847404,
+    "b_name": "Double or Twin Room with Terrace"
+  },
+  {
+    "b_blocks": [
+      {
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0,
+        "b_nr_stays": 2,
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0
+          },
+          {
+            "b_raw_price": "225.17",
+            "b_local_price": 225.17,
+            "b_price": "€ 225.17",
+            "b_stays": 1
+          },
+          {
+            "b_raw_price": "450.34",
+            "b_local_price": 450.34,
+            "b_price": "€ 450.34",
+            "b_stays": 2
+          }
+        ],
+        "b_raw_price": "225.17",
+        "b_block_id": "73847402_88211440_0_2_0",
+        "b_max_persons": 2,
+        "b_price": "€ 225.17",
+        "b_mealplan_included_name": null,
+        "b_business_package_match": 0,
+        "b_cancellation_type": "non_refundable"
+      },
+      {
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_local_price": 0,
+            "b_stays": 0,
+            "b_price": ""
+          },
+          {
+            "b_price": "€ 249.92",
+            "b_stays": 1,
+            "b_local_price": 249.92,
+            "b_raw_price": "249.92"
+          },
+          {
+            "b_raw_price": "499.84",
+            "b_price": "€ 499.84",
+            "b_stays": 2,
+            "b_local_price": 499.84
+          }
+        ],
+        "b_block_id": "73847402_101799383_0_2_0",
+        "b_raw_price": "249.92",
+        "b_nr_stays": 2,
+        "b_max_persons": 2,
+        "b_mealplan_included_name": null,
+        "b_price": "€ 249.92",
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_book_now_pay_later": 1,
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0
+      },
+      {
+        "b_business_package_match": 0,
+        "b_cancellation_type": "non_refundable",
+        "b_price": "€ 252.89",
+        "b_mealplan_included_name": "breakfast",
+        "b_max_persons": 2,
+        "b_raw_price": "252.89",
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_price": "",
+            "b_stays": 0,
+            "b_local_price": 0
+          },
+          {
+            "b_raw_price": "252.89",
+            "b_stays": 1,
+            "b_price": "€ 252.89",
+            "b_local_price": 252.89
+          },
+          {
+            "b_raw_price": "505.78",
+            "b_stays": 2,
+            "b_price": "€ 505.78",
+            "b_local_price": 505.78
+          }
+        ],
+        "b_block_id": "73847402_88211440_0_1_0",
+        "b_nr_stays": 2,
+        "b_rate_is_genius": 0,
+        "b_rate_is_cug_business_rate": 0
+      },
+      {
+        "b_max_persons": 2,
+        "b_raw_price": "280.72",
+        "b_stay_prices": [
+          {
+            "b_price": "",
+            "b_stays": 0,
+            "b_local_price": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_raw_price": "280.72",
+            "b_stays": 1,
+            "b_price": "€ 280.72",
+            "b_local_price": 280.72
+          },
+          {
+            "b_price": "€ 561.44",
+            "b_stays": 2,
+            "b_local_price": 561.44,
+            "b_raw_price": "561.44"
+          }
+        ],
+        "b_block_id": "73847402_101799383_0_1_0",
+        "b_nr_stays": 2,
+        "b_cancellation_type": "free_cancellation",
+        "b_business_package_match": 0,
+        "b_price": "€ 280.72",
+        "b_mealplan_included_name": "breakfast",
+        "b_book_now_pay_later": 1,
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0
+      },
+      {
+        "b_raw_price": "237.82",
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0
+          },
+          {
+            "b_local_price": 237.82,
+            "b_stays": 1,
+            "b_price": "€ 237.82",
+            "b_raw_price": "237.82"
+          },
+          {
+            "b_raw_price": "475.64",
+            "b_stays": 2,
+            "b_price": "€ 475.64",
+            "b_local_price": 475.64
+          }
+        ],
+        "b_block_id": "73847402_88211440_1_1_0",
+        "b_nr_stays": 2,
+        "b_max_persons": 1,
+        "b_price": "€ 237.82",
+        "b_mealplan_included_name": "breakfast",
+        "b_cancellation_type": "non_refundable",
+        "b_business_package_match": 0,
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0
+      },
+      {
+        "b_book_now_pay_later": 1,
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0,
+        "b_stay_prices": [
+          {
+            "b_stays": 0,
+            "b_price": "",
+            "b_local_price": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_raw_price": "264.11",
+            "b_price": "€ 264.11",
+            "b_stays": 1,
+            "b_local_price": 264.11
+          },
+          {
+            "b_raw_price": "528.22",
+            "b_local_price": 528.22,
+            "b_price": "€ 528.22",
+            "b_stays": 2
+          }
+        ],
+        "b_block_id": "73847402_101799383_1_1_0",
+        "b_raw_price": "264.11",
+        "b_nr_stays": 2,
+        "b_max_persons": 1,
+        "b_mealplan_included_name": "breakfast",
+        "b_price": "€ 264.11",
+        "b_cancellation_type": "free_cancellation",
+        "b_business_package_match": 0
+      }
+    ],
+    "b_name": "Superior Double Room",
+    "b_id": 73847402,
+    "b_roomtype_id": 9,
+    "b_has_room_inventory": 1
+  },
+  {
+    "b_has_room_inventory": 1,
+    "b_roomtype_id": 9,
+    "b_id": 73847403,
+    "b_blocks": [
+      {
+        "b_rate_is_genius": 0,
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1,
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_price": "€ 275.12",
+        "b_mealplan_included_name": null,
+        "b_max_persons": 3,
+        "b_nr_stays": 1,
+        "b_block_id": "73847403_101799383_0_2_0",
+        "b_stay_prices": [
+          {
+            "b_stays": 0,
+            "b_price": "",
+            "b_local_price": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_local_price": 275.12,
+            "b_price": "€ 275.12",
+            "b_stays": 1,
+            "b_raw_price": "275.12"
+          }
+        ],
+        "b_raw_price": "275.12"
+      },
+      {
+        "b_rate_is_genius": 0,
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1,
+        "b_price": "€ 324.33",
+        "b_mealplan_included_name": "breakfast",
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_nr_stays": 1,
+        "b_stay_prices": [
+          {
+            "b_stays": 0,
+            "b_price": "",
+            "b_local_price": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_price": "€ 324.33",
+            "b_stays": 1,
+            "b_local_price": 324.33,
+            "b_raw_price": "324.33"
+          }
+        ],
+        "b_raw_price": "324.33",
+        "b_block_id": "73847403_101799383_0_1_0",
+        "b_max_persons": 3
+      }
+    ],
+    "b_name": "Double or Twin Room with Extra Bed (3 Adults)"
+  },
+  {
+    "b_name": "Two Connecting Double Rooms",
+    "b_blocks": [
+      {
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1,
+        "b_rate_is_genius": 0,
+        "b_nr_stays": 1,
+        "b_raw_price": "440.44",
+        "b_stay_prices": [
+          {
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_raw_price": "440.44",
+            "b_stays": 1,
+            "b_price": "€ 440.44",
+            "b_local_price": 440.44
+          }
+        ],
+        "b_block_id": "73847405_101799383_0_2_0",
+        "b_max_persons": 4,
+        "b_price": "€ 440.44",
+        "b_mealplan_included_name": null,
+        "b_cancellation_type": "free_cancellation",
+        "b_business_package_match": 0
+      },
+      {
+        "b_max_persons": 4,
+        "b_nr_stays": 1,
+        "b_raw_price": "502.04",
+        "b_stay_prices": [
+          {
+            "b_stays": 0,
+            "b_price": "",
+            "b_local_price": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_stays": 1,
+            "b_price": "€ 502.04",
+            "b_local_price": 502.04,
+            "b_raw_price": "502.04"
+          }
+        ],
+        "b_block_id": "73847405_101799383_0_1_0",
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_mealplan_included_name": "breakfast",
+        "b_price": "€ 502.04",
+        "b_book_now_pay_later": 1,
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0
+      }
+    ],
+    "b_id": 73847405,
+    "b_has_room_inventory": 1,
+    "b_roomtype_id": 9
+  },
+  {
+    "b_roomtype_id": 10,
+    "b_has_room_inventory": 1,
+    "b_name": "Single Room",
+    "b_blocks": [
+      {
+        "b_book_now_pay_later": 1,
+        "b_rate_is_cug_business_rate": 0,
+        "b_rate_is_genius": 0,
+        "b_max_persons": 1,
+        "b_block_id": "73847406_101799383_0_2_0",
+        "b_stay_prices": [
+          {
+            "b_raw_price": "",
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0
+          },
+          {
+            "b_local_price": 164.56,
+            "b_stays": 1,
+            "b_price": "€ 164.56",
+            "b_raw_price": "164.56"
+          },
+          {
+            "b_local_price": 329.12,
+            "b_price": "€ 329.12",
+            "b_stays": 2,
+            "b_raw_price": "329.12"
+          },
+          {
+            "b_raw_price": "493.68",
+            "b_local_price": 493.68,
+            "b_price": "€ 493.68",
+            "b_stays": 3
+          },
+          {
+            "b_price": "€ 658.24",
+            "b_stays": 4,
+            "b_local_price": 658.24,
+            "b_raw_price": "658.24"
+          },
+          {
+            "b_raw_price": "822.80",
+            "b_stays": 5,
+            "b_price": "€ 822.80",
+            "b_local_price": 822.8
+          },
+          {
+            "b_price": "€ 987.36",
+            "b_stays": 6,
+            "b_local_price": 987.36,
+            "b_raw_price": "987.36"
+          },
+          {
+            "b_price": "€ 1,151.92",
+            "b_stays": 7,
+            "b_local_price": 1151.92,
+            "b_raw_price": "1151.92"
+          },
+          {
+            "b_raw_price": "1316.48",
+            "b_local_price": 1316.48,
+            "b_stays": 8,
+            "b_price": "€ 1,316.48"
+          },
+          {
+            "b_raw_price": "1481.04",
+            "b_local_price": 1481.04,
+            "b_stays": 9,
+            "b_price": "€ 1,481.04"
+          },
+          {
+            "b_stays": 10,
+            "b_price": "€ 1,645.60",
+            "b_local_price": 1645.6,
+            "b_raw_price": "1645.60"
+          }
+        ],
+        "b_raw_price": "164.56",
+        "b_nr_stays": 10,
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_mealplan_included_name": null,
+        "b_price": "€ 164.56"
+      },
+      {
+        "b_mealplan_included_name": "breakfast",
+        "b_price": "€ 179.96",
+        "b_business_package_match": 0,
+        "b_cancellation_type": "free_cancellation",
+        "b_nr_stays": 10,
+        "b_block_id": "73847406_101799383_0_1_0",
+        "b_stay_prices": [
+          {
+            "b_local_price": 0,
+            "b_price": "",
+            "b_stays": 0,
+            "b_raw_price": ""
+          },
+          {
+            "b_raw_price": "179.96",
+            "b_local_price": 179.96,
+            "b_stays": 1,
+            "b_price": "€ 179.96"
+          },
+          {
+            "b_local_price": 359.92,
+            "b_price": "€ 359.92",
+            "b_stays": 2,
+            "b_raw_price": "359.92"
+          },
+          {
+            "b_local_price": 539.88,
+            "b_stays": 3,
+            "b_price": "€ 539.88",
+            "b_raw_price": "539.88"
+          },
+          {
+            "b_local_price": 719.84,
+            "b_price": "€ 719.84",
+            "b_stays": 4,
+            "b_raw_price": "719.84"
+          },
+          {
+            "b_stays": 5,
+            "b_price": "€ 899.80",
+            "b_local_price": 899.8,
+            "b_raw_price": "899.80"
+          },
+          {
+            "b_raw_price": "1079.76",
+            "b_local_price": 1079.76,
+            "b_stays": 6,
+            "b_price": "€ 1,079.76"
+          },
+          {
+            "b_price": "€ 1,259.72",
+            "b_stays": 7,
+            "b_local_price": 1259.72,
+            "b_raw_price": "1259.72"
+          },
+          {
+            "b_local_price": 1439.68,
+            "b_price": "€ 1,439.68",
+            "b_stays": 8,
+            "b_raw_price": "1439.68"
+          },
+          {
+            "b_local_price": 1619.64,
+            "b_price": "€ 1,619.64",
+            "b_stays": 9,
+            "b_raw_price": "1619.64"
+          },
+          {
+            "b_raw_price": "1799.60",
+            "b_price": "€ 1,799.60",
+            "b_stays": 10,
+            "b_local_price": 1799.6
+          }
+        ],
+        "b_raw_price": "179.96",
+        "b_max_persons": 1,
+        "b_rate_is_genius": 0,
+        "b_rate_is_cug_business_rate": 0,
+        "b_book_now_pay_later": 1
+      }
+    ],
+    "b_id": 73847406
+  }
+]

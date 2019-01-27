@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RateCategorisation.Parser", "RateCategorisation.Parser.fsproj", "{0DA540E6-B21F-4BD1-B406-ABA822966C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA540E6-B21F-4BD1-B406-ABA822966C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA540E6-B21F-4BD1-B406-ABA822966C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA540E6-B21F-4BD1-B406-ABA822966C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA540E6-B21F-4BD1-B406-ABA822966C12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {061BAC93-69D5-432D-97BF-30B319A24D25}
+	EndGlobalSection
+EndGlobal
