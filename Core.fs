@@ -5,19 +5,18 @@ module Core =
 
     let run (Parser p) text = p text
 
-    let replacediacritics (x:string) = x.Replace("é", "e")
+    let replaceDiacritics (x:string) = 
+        x
+        |> System.Text.Encoding.GetEncoding("ISO-8859-8").GetBytes
+        |> System.Text.Encoding.UTF8.GetString
 
-    let prune source target = (source:string).IndexOf(target, System.StringComparison.InvariantCultureIgnoreCase) <> -1
+    let icontains source target = (source:string).IndexOf(target, System.StringComparison.InvariantCultureIgnoreCase) <> -1
 
     let parseAny list v =
         Parser <| fun text ->
-            if list |> List.exists (prune text) then Some v
+            if list |> List.exists (icontains text) then Some v
             else None
 
-    let combineWord a b =
-        [ sprintf "%s %s" a b
-          sprintf "%s %s" b a ]
-    
     module Operators =
         let (<|>) f g = 
             fun text ->
