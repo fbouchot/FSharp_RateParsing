@@ -19,9 +19,12 @@ let HtmlResponse =
         httpMethod="GET", 
         headers=[("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36")])
 
-        
-let samplePath = root </> "Html/demo_20180127.html"
+   
+printfn "%s" HtmlResponse
+
+let samplePath = root </> "Html/demo_20180129.html"
 System.IO.File.WriteAllText(samplePath, HtmlResponse)
+
 let html = System.IO.File.ReadAllText(samplePath)
 
 let jsonText = 
@@ -29,12 +32,16 @@ let jsonText =
     if m.Success then Some m.Groups.["roomAvailability"].Value
     else None
 
-let jsonPath = root </> "Html/demo_20180126.json"
+printfn "%s" jsonText.Value
+
+let jsonPath = root </> "Html/demo_20180129.json"
 System.IO.File.WriteAllText(jsonPath, jsonText.Value)
 
 let json = System.IO.File.ReadAllText(jsonPath)
 
-type RoomType = JsonProvider<"Html\RoomRatesProvider.json", RootName = "RoomType">
+//printfn "%s" json
+
+type RoomType = JsonProvider<"Html/demo_20180128.json", RootName = "RoomType">
 
 type PaymentType =
          PayNow
@@ -76,6 +83,9 @@ type Room =
 
 let searchResult = RoomType.Parse(json)
 
+
+//searchResult.[0].BBlocks.[2].BMealplanIncludedName
+
 let rooms = searchResult |> Array.map (fun room -> 
     { Id = room.BId
       Name = room.BName
@@ -87,8 +97,13 @@ let rooms = searchResult |> Array.map (fun room ->
         }) 
      })
 
-printfn "%A" rooms
-(*As meal plan name in the json porpety it's some time string and some times null, the Jsonrovider Parser infers his type as string option
-As I understand when in F# they put option types it's like nullable types in C#.
-So in this case we need to pas the meal plan that it's type string option to a function that checks if itr's string or NONE, the function it's parseMealPlanOption
-that return the original string if it is an string or if it was a null I return a string "breakfast not included". Then after the function we pass from type string option to type string.*)
+
+
+
+
+
+//printfn "%A" rooms
+//(*As meal plan name in the json porpety it's some time string and some times null, the Jsonrovider Parser infers his type as string option
+//As I understand when in F# they put option types it's like nullable types in C#.
+//So in this case we need to pas the meal plan that it's type string option to a function that checks if itr's string or NONE, the function it's parseMealPlanOption
+//that return the original string if it is an string or if it was a null I return a string "breakfast not included". Then after the function we pass from type string option to type string.*)
