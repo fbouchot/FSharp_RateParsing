@@ -1,7 +1,9 @@
 namespace firstGiraffe
 
 module HttpHandlers =
-
+    
+    open FSharp.Data
+    open Availpro.RateCategorisation.Parsing
     open Microsoft.AspNetCore.Http
     open FSharp.Control.Tasks.V2.ContextInsensitive
     open Giraffe
@@ -21,8 +23,9 @@ module HttpHandlers =
         fun (next : HttpFunc) (ctx : HttpContext) ->
             task {
                 let queryParameters = ctx.BindQueryString<QueryParameters>()
+                let result = BookingScraping.scrap(queryParameters.url.ToString())
                 let response = {
-                    Text = queryParameters.url.ToString()
+                    Text = result.ToString()
                 }
                 return! json response next ctx
             }

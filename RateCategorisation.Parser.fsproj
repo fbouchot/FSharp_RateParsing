@@ -42,12 +42,13 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Core.fs" />    
+    <Compile Include="Core.fs" />
     <None Include="Script.fsx" />
     <Content Include="packages.config" />
     <Compile Include="MealPlanParsing.fs" />
     <None Include="BookingScraping.fsx" />
-    <None Include="CateringTypeParsing.fsx" />   
+    <None Include="CateringTypeParsing.fsx" />
+    <Compile Include="BookingScraping.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FParsec">

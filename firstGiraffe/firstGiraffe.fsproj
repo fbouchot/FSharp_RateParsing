@@ -24,4 +24,8 @@
     <None Include="web.config" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RateCategorisation.Parser.fsproj" />
+  </ItemGroup>
+
 </Project>
