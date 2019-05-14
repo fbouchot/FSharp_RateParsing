@@ -11,7 +11,7 @@ open Availpro.RateCategorisation.Parsing
 let root = __SOURCE_DIRECTORY__
 let (</>) x y = System.IO.Path.Combine(x, y)
 
-let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-03-01&checkout=2019-03-02&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
+let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-29&checkout=2019-05-30&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
 
 let HtmlResponse = 
     Http.RequestString(
@@ -22,7 +22,7 @@ let HtmlResponse =
    
 printfn "%s" HtmlResponse
 
-let samplePath = root </> "Html/demo_20180129.html"
+let samplePath = root </> "Html/demo_20190513.html"
 System.IO.File.WriteAllText(samplePath, HtmlResponse)
 
 let html = System.IO.File.ReadAllText(samplePath)
@@ -83,8 +83,6 @@ type Room =
 
 let searchResult = RoomType.Parse(json)
 
-
-//searchResult.[0].BBlocks.[2].BMealplanIncludedName
 
 let rooms = searchResult |> Array.map (fun room -> 
     { Id = room.BId
