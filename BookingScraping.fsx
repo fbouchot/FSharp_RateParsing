@@ -60,7 +60,7 @@ type Room =
 let root = __SOURCE_DIRECTORY__
 let (</>) x y = System.IO.Path.Combine(x, y)
 
-let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-15&checkout=2019-05-16&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
+let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-31&checkout=2019-05-31&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
 
 let HtmlResponse = 
     Http.RequestString(
@@ -104,34 +104,11 @@ let json = System.IO.File.ReadAllText(jsonPath)
 //                            ] 
 //                            """, SampleIsList=true>
 
-//let simpleJson = test.Parse("""{ "name": "oriol" }""")
-
-//simpleJson.Age.IsSome
-////simpleJson.
-//type sampleProvider = JsonProvider<""" [{"name" : "flo", 
-//                                            "address" :
-//                                                { "streetName" : "HelloStreet",
-//                                                   "number" : 1
-//                                                },
-//                                            "age" :25
-//                                          },
-//                                          {"name" : "oriol", 
-//                                            "address" :
-//                                                { "streetName" : "HelloStreet",
-//                                                   "number" : 1
-//                                                }
-                                           
-//                                          }] """, SampleIsList = true>
-
-//let test = sampleProvider.Parse """ {"name": "oriol"} """
-
-//test.Age
 
 type RoomType = JsonProvider<"Html/demo_20190515.json", RootName = "RoomType">
 
 
 let searchResult = RoomType.Parse(json)
-
 
 //searchResult.[0].BBlocks.[2].BMealplanIncludedName
 
