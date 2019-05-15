@@ -37,12 +37,11 @@ type Room =
             Rate : Rate[]
         }
 
-
 // Path functions
 let root = __SOURCE_DIRECTORY__
 let (</>) x y = System.IO.Path.Combine(x, y)
 
-let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-29&checkout=2019-05-30&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
+let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-30&checkout=2019-05-31&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
 
 let HtmlResponse = 
     Http.RequestString(
@@ -51,9 +50,8 @@ let HtmlResponse =
         headers=[("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36")])
 
    
-printfn "%s" HtmlResponse
 
-let samplePath = root </> "Html/demo_20190513.html"
+let samplePath = root </> "Html/demo_Final.html"
 System.IO.File.WriteAllText(samplePath, HtmlResponse)
 
 let doc = HtmlDocument.Load(samplePath)
@@ -133,8 +131,6 @@ let getPrice (node:HtmlNode) =
                             then "0"
                          else
                             priceText.Value.InnerText()                            
-
-
 
 let getRateName (node:HtmlNode) = 
                                     let spans = node.Descendants "span"

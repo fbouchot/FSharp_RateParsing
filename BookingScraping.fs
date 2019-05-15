@@ -7,6 +7,15 @@ module BookingScraping =
     open Availpro.RateCategorisation.Parsing            
 
     type RoomType = JsonProvider<"Html/demo_20190515.json", RootName = "RoomType">
+    
+    type QueryParameters =
+        {
+            url  : string
+            checkout : string
+            checkin: string 
+            group_adult :int 
+            currency: string
+        }
 
     type PaymentType =
            PayNow
@@ -58,19 +67,12 @@ module BookingScraping =
         | None -> (decimal) 0
 
       
-    let scrap url =        
+    let scrap url =          
         let content = Http.RequestString(
-            "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-15&checkout=2019-05-16&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1",
+            url,
             httpMethod="GET", 
             headers=[("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36")])
-            
-        // Path functions
-        let root = __SOURCE_DIRECTORY__
-        let (</>) x y = System.IO.Path.Combine(x, y)
 
-        let samplePath = root </> "Html/demo_20190515.html"
-        System.IO.File.WriteAllText(samplePath, content)
-        
         let jsonText = 
             let m = Regex.Match(content, "b_rooms_available_and_soldout\s*[:=]\s*(?<roomAvailability>\[.+\}\]),")    
             if m.Success then Some m.Groups.["roomAvailability"].Value

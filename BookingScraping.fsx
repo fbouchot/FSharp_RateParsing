@@ -8,42 +8,6 @@ open System.Text.RegularExpressions
 open FSharp.Core
 open Availpro.RateCategorisation.Parsing
 
-// Path functions
-let root = __SOURCE_DIRECTORY__
-let (</>) x y = System.IO.Path.Combine(x, y)
-
-let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-15&checkout=2019-05-16&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
-
-let HtmlResponse = 
-    Http.RequestString(
-        BookingUrl, 
-        httpMethod="GET", 
-        headers=[("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36")])
-
-   
-printfn "%s" HtmlResponse
-
-let samplePath = root </> "Html/demo_20190515.html"
-System.IO.File.WriteAllText(samplePath, HtmlResponse)
-
-let html = System.IO.File.ReadAllText(samplePath)
-
-let jsonText = 
-    let m = Regex.Match(html, "b_rooms_available_and_soldout\s*[:=]\s*(?<roomAvailability>\[.+\}\]),")    
-    if m.Success then Some m.Groups.["roomAvailability"].Value
-    else None
-
-printfn "%s" jsonText.Value
-
-let jsonPath = root </> "Html/demo_20190515.json"
-System.IO.File.WriteAllText(jsonPath, jsonText.Value)
-
-let json = System.IO.File.ReadAllText(jsonPath)
-
-//printfn "%s" json
-
-type RoomType = JsonProvider<"Html/demo_20190515.json", RootName = "RoomType">
-
 type PaymentType =
          PayNow
        | PayLater
@@ -91,6 +55,79 @@ type Room =
     { Id : int
       Name: string
       Rates: Rate[]}
+
+// Path functions
+let root = __SOURCE_DIRECTORY__
+let (</>) x y = System.IO.Path.Combine(x, y)
+
+let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-15&checkout=2019-05-16&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
+
+let HtmlResponse = 
+    Http.RequestString(
+        BookingUrl, 
+        httpMethod="GET", 
+        headers=[("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36")])
+
+   
+printfn "%s" HtmlResponse
+
+let samplePath = root </> "Html/demo_20190515.html"
+System.IO.File.WriteAllText(samplePath, HtmlResponse)
+
+let html = System.IO.File.ReadAllText(samplePath)
+
+let jsonText = 
+    let m = Regex.Match(html, "b_rooms_available_and_soldout\s*[:=]\s*(?<roomAvailability>\[.+\}\]),")    
+    if m.Success then Some m.Groups.["roomAvailability"].Value
+    else None
+
+//printfn "%s" jsonText.Value
+
+let jsonPath = root </> "Html/demo_20190515.json"
+System.IO.File.WriteAllText(jsonPath, jsonText.Value)
+
+let json = System.IO.File.ReadAllText(jsonPath)
+
+//type test = JsonProvider<""" [{ 
+//                            "name": "florian",  
+//                            "age" : 27,
+//                            "addresse" : [ 
+//                                            {
+//                                            "streetName" : "testStreeetName", 
+//                                           "numberInTheStreet": 1
+//                                            }
+//                                           ]
+//                            },
+//                            { 
+//                            "name": "oriol"                            
+//                            } 
+//                            ] 
+//                            """, SampleIsList=true>
+
+//let simpleJson = test.Parse("""{ "name": "oriol" }""")
+
+//simpleJson.Age.IsSome
+////simpleJson.
+//type sampleProvider = JsonProvider<""" [{"name" : "flo", 
+//                                            "address" :
+//                                                { "streetName" : "HelloStreet",
+//                                                   "number" : 1
+//                                                },
+//                                            "age" :25
+//                                          },
+//                                          {"name" : "oriol", 
+//                                            "address" :
+//                                                { "streetName" : "HelloStreet",
+//                                                   "number" : 1
+//                                                }
+                                           
+//                                          }] """, SampleIsList = true>
+
+//let test = sampleProvider.Parse """ {"name": "oriol"} """
+
+//test.Age
+
+type RoomType = JsonProvider<"Html/demo_20190515.json", RootName = "RoomType">
 
 
 let searchResult = RoomType.Parse(json)

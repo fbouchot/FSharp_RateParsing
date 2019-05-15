@@ -23,8 +23,9 @@ module HttpHandlers =
     let handleScrap =
         fun (next : HttpFunc) (ctx : HttpContext) ->
             task {
-                let queryParameters = ctx.BindQueryString<QueryParameters>()
-                let result = BookingScraping.scrap(queryParameters.url.ToString())
+                let queryParameters = ctx.BindQueryString<QueryParameters>()   
+                let url = queryParameters.url + "?checkin=" + queryParameters.checkin + "&checkout="+ queryParameters.checkout+ "&group_adults=" + queryParameters.adult + "&selected_currency=" + queryParameters.currency + "&sb_price_type=total&type=total&do_availability_check=1"
+                let result = BookingScraping.scrap url
                 let response = ctx.WriteJsonAsync result
                 return! json response next ctx
             }
