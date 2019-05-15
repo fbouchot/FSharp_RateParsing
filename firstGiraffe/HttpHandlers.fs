@@ -8,6 +8,7 @@ module HttpHandlers =
     open FSharp.Control.Tasks.V2.ContextInsensitive
     open Giraffe
     open firstGiraffe.Models
+    open Newtonsoft.Json
     
 
     let handleGetHello =
@@ -24,8 +25,6 @@ module HttpHandlers =
             task {
                 let queryParameters = ctx.BindQueryString<QueryParameters>()
                 let result = BookingScraping.scrap(queryParameters.url.ToString())
-                let response = {
-                    Text = result.ToString()
-                }
+                let response = ctx.WriteJsonAsync result
                 return! json response next ctx
             }
