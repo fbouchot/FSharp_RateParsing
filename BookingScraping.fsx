@@ -1,4 +1,5 @@
-﻿#r "packages/FSharp.Data.3.0.0/lib/net45/FSharp.Data.dll"
+﻿//#r "packages/FSharp.Data.3.0.1/lib/net45/FSharp.Data.dll"
+#r "packages/FSharp.Data.3.1.1/lib/net45/FSharp.Data.dll"
 #load "Core.fs"
 #load "MealPlanParsing.fs"
 
@@ -11,7 +12,7 @@ open Availpro.RateCategorisation.Parsing
 let root = __SOURCE_DIRECTORY__
 let (</>) x y = System.IO.Path.Combine(x, y)
 
-let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-03-01&checkout=2019-03-02&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
+let BookingUrl = "https://www.booking.com/hotel/es/vincci-gala.en-gb.html?checkin=2019-05-15&checkout=2019-05-16&group_adults=2&selected_currency=EUR&sb_price_type=total&type=total&do_availability_check=1"
 
 let HtmlResponse = 
     Http.RequestString(
@@ -22,7 +23,7 @@ let HtmlResponse =
    
 printfn "%s" HtmlResponse
 
-let samplePath = root </> "Html/demo_20180129.html"
+let samplePath = root </> "Html/demo_20190515.html"
 System.IO.File.WriteAllText(samplePath, HtmlResponse)
 
 let html = System.IO.File.ReadAllText(samplePath)
@@ -34,14 +35,14 @@ let jsonText =
 
 printfn "%s" jsonText.Value
 
-let jsonPath = root </> "Html/demo_20180129.json"
+let jsonPath = root </> "Html/demo_20190515.json"
 System.IO.File.WriteAllText(jsonPath, jsonText.Value)
 
 let json = System.IO.File.ReadAllText(jsonPath)
 
 //printfn "%s" json
 
-type RoomType = JsonProvider<"Html/demo_20180128.json", RootName = "RoomType">
+type RoomType = JsonProvider<"Html/demo_20190515.json", RootName = "RoomType">
 
 type PaymentType =
          PayNow
@@ -68,6 +69,17 @@ let parseMealPlanOption (meal : string option) =
     match meal with
     | Some(meal) -> meal
     | None -> "Breakfast not Included"
+
+// parse tring option to string
+let parseRateIdOption (rateId : string option) =
+    match rateId with
+    | Some(rateId) -> rateId
+    | None -> "no rate id"
+
+let parsePriceOption (price : decimal option) =
+    match price with
+    | Some(price) -> price
+    | None -> (decimal) 0
       
 type Rate =
     { Id: string    
@@ -90,8 +102,8 @@ let rooms = searchResult |> Array.map (fun room ->
     { Id = room.BId
       Name = room.BName
       Rates = room.BBlocks |> Array.map (fun rate -> 
-      { Id = rate.BBlockId
-        Price = rate.BRawPrice
+      { Id = rate.BBlockId |> parseRateIdOption
+        Price = rate.BRawPrice |> parsePriceOption
         PaymentType = rate.BBookNowPayLater |> pPaymentType
         MealPlan = rate.BMealplanIncludedName |> parseMealPlanOption |> MealPlanParsing.parse
         }) 
